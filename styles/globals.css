@@ -3,6 +3,19 @@
 @tailwind components;
 @tailwind utilities;
 
+h2 {
+ @apply text-4xl text-center;
+}
+
 h1, h2, h3, a {
   font-family: 'Bebas Neue', sans-serif;
+}
+
+
+section {
+  @apply py-16;
+}
+
+section > div {
+  @apply max-w-4xl mx-auto text-center px-4;
 }

@@ -12,7 +12,7 @@ const Navigation = () => {
   };
 
   return (
-    <header className="w-full bg-black/60 absolute top-0 z-10">
+    <header className="w-full  absolute top-0 z-10">
       <nav className="container mx-auto px-8 py-4 flex flex-wrap items-center justify-between">
         <Link href="/" className="">
           <img src="/images/bcc-typelogo.png" alt="Logo" className="h-6 md:h-8 w-auto text-white" />

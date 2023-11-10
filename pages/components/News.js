@@ -17,7 +17,7 @@ const newsFeed = [
 export default function News() {
   return (
     <div className="bg-black text-white">
-      <div className="max-w-4xl mx-auto px-4 py-16">
+      <div className="max-w-6xl mx-auto px-4 py-16">
         <h2 className="text-4xl pb-4">Latest news</h2>
         <div className="">
           {newsFeed.map((entry, index) => (

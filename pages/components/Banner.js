@@ -4,11 +4,11 @@ export default function Banner() {
 	return (
     <div className="text-white">
       <div>
-        <Image src={"/images/bannerbg.jpg"} 
+        <Image src={"/images/bannerbg2.jpg"} 
           className="w-full h-full bg-cover" width="800" height="800" />
       </div>
       <div 
-          className="md:absolute left-1/2 bottom-[4vh] md:-translate-x-[50%] w-full text-center bg-black md:bg-transparent" 
+          className="xl:absolute xl:left-1/2 xl:bottom-[4vh] xl:-translate-x-[50%] xl:bg-transparent w-full text-center bg-black" 
           >
         <h1>
           <span className="block text-4xl md:text-7xl">Arizona Hardcore</span>

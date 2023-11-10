@@ -17,7 +17,6 @@ export default function Home() {
       <Banner />  
       <Music />
       <Shows /> 
-      <News />
       <Social />
       <About />
       <Footer />
